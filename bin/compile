@@ -240,7 +240,7 @@ cp "$ROOT_DIR/vendor/python.gunicorn.sh" "$GUNICORN_PROFILE_PATH"
 
 # Experimental post_compile hook.
 # shellcheck source=bin/steps/hooks/post_compile
-source "$BIN_DIR/steps/hooks/post_compile"
+# source "$BIN_DIR/steps/hooks/post_compile"
 
 # Fix egg-links, again.
 # shellcheck source=bin/steps/eggpath-fix2
